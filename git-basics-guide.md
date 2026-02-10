@@ -361,3 +361,27 @@ git push origin abc-branch
 - ✅ Commit thường xuyên với message rõ ràng
 - ✅ Push lên GitHub để backup
 - ⚠️ Tránh detached HEAD khi làm việc
+
+---
+
+## 🛠️ Công Cụ VS Code (Tool) Nên Dùng
+
+### 1. **Git Graph** (Khuyên dùng 🌟)
+- **Extension:** `mhutchie.git-graph`
+- **Tác dụng:** Xem lịch sử commit dạng biểu đồ cây (như bản đồ tàu điện 🚇).
+- **Tại sao:** Rất trực quan, dễ thấy rẽ nhánh, merge. Bạn đang dùng cái này rồi!
+
+### 2. **GitLens** (Mạnh mẽ 💪)
+- **Extension:** `eamodio.gitlens`
+- **Tính năng:**
+  - **CodeLens:** Thấy ai sửa dòng code, vào lúc nào ngay trong editor.
+  - **File History:** Xem lịch sử thay đổi của 1 file.
+  - **Compare:** So sánh code giữa các branch dễ dàng.
+
+### 3. **Source Control** (Có sẵn ⚡)
+- **Phím tắt:** `Ctrl + Shift + G`
+- **Tác dụng:**
+  - **Stage (+):** Chọn file để commit.
+  - **Commit:** Ghi lại thay đổi.
+  - **Sync:** Nút quay tròn để Push/Pull code nhanh gọn.
+
